@@ -12,7 +12,7 @@ touch README.md pyproject.toml .gitignore .env
 mkdir src data src/input src/output
 
 # Create source files
-touch src/main.py src/module1.py src/module2.py
+touch src/main.py src/module1.py src/module2.py /data/input.txt 
 
 # Write default content to README.md
 echo "# $project_name" >> README.md
