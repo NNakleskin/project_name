@@ -9,10 +9,10 @@ cd $project_name
 
 # Create necessary files and directories
 touch README.md pyproject.toml .gitignore .env
-mkdir src data src/input src/output
+mkdir src data data/input data/output
 
 # Create source files
-touch src/main.py src/module1.py src/module2.py /data/input.txt 
+touch src/main.py src/module1.py src/module2.py /data/input/input.txt /data/output/output.txt
 
 # Write default content to README.md
 echo "# $project_name" >> README.md
